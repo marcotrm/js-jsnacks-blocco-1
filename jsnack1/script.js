@@ -1,6 +1,6 @@
-let numero1 = prompt("inserisci il primo numero:")
+let numero1 = parseInt(prompt("inserisci il primo numero:"));
 
-let numero2 = prompt("inserisci il secondo numero:")
+let numero2 = parseInt(prompt("inserisci il secondo numero:"));
 
 if (numero1 > numero2) {
     console.log(`il numero più grande è  ${numero1}`);
